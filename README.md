@@ -28,7 +28,7 @@ Arguments : [#_queens] [BoardConfigFile] [Method] [Heuristic] [TimeLimit] <br />
 <li>BoardConfigFile .: .csv file name or random for a random board</li>
 <li>Method ...............: AS - A Star, HC - Hill Climbing, Both - Both the methods</li>
 <li>Heuristic .............: Heuristic number (1/2/3)</li>
-<li>TimeLimit ............: Time Limit in secs</li>
+<li>TimeLimit ...........: Time Limit in secs</li>
 </ul>
 
 Example command line input:<br />
