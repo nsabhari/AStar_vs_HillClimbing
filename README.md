@@ -26,7 +26,7 @@ Arguments : [#_queens] [BoardConfigFile] [Method] [Heuristic] [TimeLimit] <br />
 <ul>
 <li>#_queens ...........: No. of queens in the board (>4)</li>
 <li>BoardConfigFile .: .csv file name or random for a random board</li>
-<li>methods .............: AS - A Star, HC - Hill Climbing, Both - Both the methods</li>
+<li>Method ..............: AS - A Star, HC - Hill Climbing, Both - Both the methods</li>
 <li>Heuristic .............: Heuristic number (1/2/3)</li>
 <li>TimeLimit ...........: Time Limit in secs</li>
 </ul>
