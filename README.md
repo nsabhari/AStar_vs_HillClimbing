@@ -6,9 +6,9 @@ The problem statement inolved a vaiant of nQueens problem. Some of the queen pie
 (Note:Attack on a queen includes direct and indirect attack)<br />
 
 For A* following heuristics were defined and tested:<br />
-H1 : The square of the lightest Queen across all pairs of Queens attacking each other.<br />
-H2 : Sum across squared weight of the lightest Queen in every pair of attacking Queens.<br />
-H3 : The maximum of minimum cost required to clear attack for each queen. This has been explained in more detail in the report.<br />
+>H1 : The square of the lightest Queen across all pairs of Queens attacking each other.<br />
+>H2 : Sum across squared weight of the lightest Queen in every pair of attacking Queens.<br />
+>H3 : The maximum of minimum cost required to clear attack for each queen. This has been explained in more detail in the report.<br />
 
 For Hill Climbing we are using it with sideways movements and random restarts.<br />
 
@@ -16,27 +16,26 @@ The time limit to obtain a result is 10 secs. A comparative study was done betwe
 
 A report is also present explaing the process and approach followed during this study.<br />
 
-
 Instructions to use the python script:<br />
--------------------------<br />
+-------------------------
 
 The script needs to be run from the terminal using python3 with the follwing arguments<br />
-Arguments : [#_queens] [BoardConfigFile] [Method] [Heuristic] [TimeLimit]<br />
-#_queens		: No. of queens in the board (>4)<br />
-BoardConfigFile	: .csv file name or random for a random board<br />
-methods 		: AS - A Star, HC - Hill Climbing, Both - Both the methods<br />
-Heuristic		: Heuristic number (1/2/3)<br />
-TimeLimit		: Time Limit in secs<br />
+Arguments : [#_queens] [BoardConfigFile] [Method] [Heuristic] [TimeLimit] <br />
+>#_queens ...........: No. of queens in the board (>4)<br />
+>BoardConfigFile .: .csv file name or random for a random board<br />
+>methods .............: AS - A Star, HC - Hill Climbing, Both - Both the methods<br />
+>Heuristic .............: Heuristic number (1/2/3)<br />
+>TimeLimit ...........: Time Limit in secs<br />
 
 
 Example command line input:<br />
--------------------------<br />
+-------------------------
 
 python3 nQueens_v8_final.py 5 board.csv Both 3 10<br />
-	This runs the 'nQueens_v8_final.py' script for a '5x5' board using the 'board.csv' configuration file. 'Both' A* and Hill Climbing algorithms are run with the Heuristic 3 with a time limit of 10 secs<br />
+>This runs the 'nQueens_v8_final.py' script for a '5x5' board using the 'board.csv' configuration file. 'Both' A* and Hill Climbing algorithms are run with the Heuristic 3 with a time limit of 10 secs<br />
 
 python3 nQueens_v8_final.py 5 random Both 3 10<br />
-	This is same as the previous example but uses a randomly generated board<br />
+>This is same as the previous example but uses a randomly generated board<br />
 
 
 
