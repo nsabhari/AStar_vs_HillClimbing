@@ -23,13 +23,13 @@ Instructions to use the python script:<br />
 
 The script needs to be run from the terminal using python3 with the follwing arguments<br />
 Arguments : [#_queens] [BoardConfigFile] [Method] [Heuristic] [TimeLimit] <br />
-<ul>
-<li>#_queens ...........: No. of queens in the board (>4)</li>
-<li>BoardConfigFile .: .csv file name or random for a random board</li>
-<li>Method ...............: AS - A Star, HC - Hill Climbing, Both - Both the methods</li>
-<li>Heuristic .............: Heuristic number (1/2/3)</li>
-<li>TimeLimit ...........: Time Limit in secs</li>
-</ul>
+| Argument | Description |
+| --- | --- |
+| #_queens | No. of queens in the board (>4) |
+| BoardConfigFile | .csv file name or random for a random board |
+| Method | AS - A Star, HC - Hill Climbing, Both - Both the methods |
+| Heuristic | Heuristic number (1/2/3) |
+| TimeLimit | Time Limit in secs |
 
 Example command line input:<br />
 -------------------------
